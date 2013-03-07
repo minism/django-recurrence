@@ -866,7 +866,8 @@ recurrence.widget.RuleForm.prototype = {
         var root = recurrence.widget.e(
             'form', {}, [
                 mode_container, freq_container, interval_container,
-                freq_form_container, limit_container]);
+                freq_form_container]);
+                // freq_form_container, limit_container]);
 
         // events
 
